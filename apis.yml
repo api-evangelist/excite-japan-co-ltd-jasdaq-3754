@@ -1,8 +1,29 @@
 aid: excite-japan-co-ltd-jasdaq-3754
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excite-japan-co-ltd-jasdaq-3754.png
 name: Excite Japan Co., Ltd. (JASDAQ:3754)
-description: Excite Japan Co., Ltd. (JASDAQ:3754) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Excite Japan Co., Ltd. (エキサイト株式会社), listed on JASDAQ as ticker 3754, is a
+  Tokyo-based internet media and services company founded in August 1997 and
+  headquartered in the Azabudai Hills Mori JP Tower in Minato, Tokyo. It operates
+  the long-running excite.co.jp web portal — offering web, image, and news search,
+  the Excite Blog (exblog.jp) blogging platform, translation and dictionary tools,
+  fortune-telling, recipe, and lifestyle content — alongside the BB.excite
+  broadband/ISP business. Under parent Excite Holdings Co., Ltd., the group
+  organizes its operations into four segments: Platform, Broadband, Medical, and
+  SaaS/DX (including the FanGrowth customer-growth platform). The company does not
+  currently publish a public developer API program or portal; this profile tracks
+  its corporate and web presence within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/excite-japan-co-ltd-jasdaq-3754/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Japan
+- Internet Media
+- Web Portal
+- Search
+- Blogging
+- Broadband
+- ISP
+- Translation
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://www.excite.co.jp/
+- type: PrivacyPolicy
+  url: https://info.excite.co.jp/privacy-policy
+- type: DomainSecurity
+  url: security/excite-japan-co-ltd-jasdaq-3754-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
